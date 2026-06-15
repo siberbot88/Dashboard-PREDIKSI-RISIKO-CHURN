@@ -1,0 +1,30 @@
+age_group,total_customer,churn_customer,churn_rate,analysis_column,Gender,Marital Status,Occupation,Monthly Income,Educational Qualifications,Family size
+27+,61,25,40.98360655737705,age_group,,,,,,
+24-26,107,27,25.233644859813083,age_group,,,,,,
+<=20,12,2,16.666666666666664,age_group,,,,,,
+21-23,106,11,10.377358490566039,age_group,,,,,,
+,122,30,24.59016393442623,Gender,Female,,,,,
+,164,35,21.341463414634145,Gender,Male,,,,,
+,9,5,55.55555555555556,Marital Status,,Prefer not to say,,,,
+,85,32,37.64705882352941,Marital Status,,Married,,,,
+,192,28,14.583333333333334,Marital Status,,Single,,,,
+,93,33,35.483870967741936,Occupation,,,Employee,,,
+,37,13,35.13513513513514,Occupation,,,Self Employeed,,,
+,9,2,22.22222222222222,Occupation,,,House wife,,,
+,147,17,11.564625850340136,Occupation,,,Student,,,
+,47,17,36.17021276595745,Monthly Income,,,,More than 50000,,
+,50,17,34.0,Monthly Income,,,,25001 to 50000,,
+,36,9,25.0,Monthly Income,,,,10001 to 25000,,
+,18,4,22.22222222222222,Monthly Income,,,,Below Rs.10000,,
+,135,18,13.333333333333334,Monthly Income,,,,No Income,,
+,2,1,50.0,Educational Qualifications,,,,,Uneducated,
+,21,7,33.33333333333333,Educational Qualifications,,,,,Ph.D,
+,122,34,27.86885245901639,Educational Qualifications,,,,,Graduate,
+,11,2,18.181818181818183,Educational Qualifications,,,,,School,
+,130,21,16.153846153846153,Educational Qualifications,,,,,Post Graduate,
+,22,8,36.36363636363637,Family size,,,,,,6.0
+,39,11,28.205128205128204,Family size,,,,,,5.0
+,18,5,27.77777777777778,Family size,,,,,,1.0
+,74,19,25.675675675675674,Family size,,,,,,2.0
+,89,17,19.101123595505616,Family size,,,,,,3.0
+,44,5,11.363636363636363,Family size,,,,,,4.0

@@ -1,0 +1,6 @@
+campaign_name,target_segment,target_reason_code,channel,offer,kpi
+Fast Delivery Recovery,High Risk,Time Risk,Push notification,Voucher fast delivery untuk restoran terdekat,Reorder rate
+We Miss You Voucher,High Risk,Promo Risk,WhatsApp dan in-app,Voucher khusus pembelian ulang,Voucher redemption
+Lunch Time Retention,Medium Risk,Time Risk,Push notification,Promo makan siang cepat,Lunch order conversion
+Loyalty Point Booster,Medium Risk,Promo Risk,Email dan in-app,Poin tambahan untuk 3 transaksi berikutnya,Repeat order frequency
+Referral Loyal Customer,Low Risk,General Risk,Referral link,Reward referral untuk pelanggan loyal,Referral rate

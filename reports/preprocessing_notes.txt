@@ -1,0 +1,9 @@
+
+Catatan Preprocessing
+
+1. Target churn_risk dibuat dari Output.
+2. Output dihapus dari fitur karena sudah menjadi sumber target.
+3. Reviews tidak dipakai dalam model utama karena berbentuk teks.
+4. Fitur numerik akan diproses dengan median imputer dan standard scaler.
+5. Fitur kategorikal akan diproses dengan most frequent imputer dan one hot encoding.
+6. Split data memakai stratify agar proporsi kelas tetap seimbang.

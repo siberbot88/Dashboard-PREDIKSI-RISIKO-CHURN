@@ -1,0 +1,13 @@
+risk_segment,reason_code,total_customer,avg_risk_score
+High Risk,Time Risk,40,0.8073689563635715
+Low Risk,Service Risk,139,0.1989263598879887
+Low Risk,General Risk,39,0.16986148960085792
+Low Risk,Time Risk,16,0.2919021588373786
+Low Risk,Promo Risk,14,0.22829665253115858
+Low Risk,Food Quality Risk,4,0.1963840933956847
+Low Risk,Convenience Risk,1,0.3741008992726751
+Medium Risk,Time Risk,14,0.593997477611884
+Medium Risk,Service Risk,9,0.526694986454538
+Medium Risk,Promo Risk,5,0.4571125301052243
+Medium Risk,General Risk,3,0.4411718356146918
+Medium Risk,Convenience Risk,2,0.6120141813588204

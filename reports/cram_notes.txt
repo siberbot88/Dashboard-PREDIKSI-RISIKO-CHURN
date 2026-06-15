@@ -1,0 +1,13 @@
+
+CRAM atau Customer Retention Action Matrix dipakai untuk mengubah hasil prediksi menjadi tindakan CRM.
+
+Komponen CRAM:
+1. Risk score
+2. Risk segment
+3. Reason code
+4. CRM action
+5. CRM channel
+6. CRM KPI
+
+Nilai utama CRAM:
+Project tidak berhenti pada prediksi, tetapi menerjemahkan hasil model menjadi strategi retensi pelanggan.

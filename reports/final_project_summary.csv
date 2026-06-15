@@ -1,0 +1,7 @@
+metric,value
+total_customer,286
+actual_churn_risk_rate_percent,22.73
+high_risk_customer,40
+medium_risk_customer,33
+low_risk_customer,213
+best_model,Random Forest

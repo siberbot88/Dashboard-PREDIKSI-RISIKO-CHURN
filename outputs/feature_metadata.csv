@@ -1,0 +1,54 @@
+feature_name,data_type,unique_count,missing_count,feature_group
+Age,int64,16,0,numeric
+Gender,object,2,0,categorical
+Marital Status,object,3,0,categorical
+Occupation,object,4,0,categorical
+Monthly Income,object,5,0,categorical
+Educational Qualifications,object,5,0,categorical
+Family size,int64,6,0,numeric
+latitude,float64,77,0,numeric
+longitude,float64,76,0,numeric
+Pin code,int64,77,0,numeric
+Medium (P1),object,4,0,categorical
+Medium (P2),object,3,0,categorical
+Meal(P1),object,4,0,categorical
+Meal(P2),object,3,0,categorical
+Perference(P1),object,4,0,categorical
+Perference(P2),object,4,0,categorical
+Ease and convenient,object,5,0,categorical
+Time saving,object,5,0,categorical
+More restaurant choices,object,5,0,categorical
+Easy Payment option,object,5,0,categorical
+More Offers and Discount,object,5,0,categorical
+Good Food quality,object,5,0,categorical
+Good Tracking system,object,5,0,categorical
+Self Cooking,object,5,0,categorical
+Health Concern,object,5,0,categorical
+Late Delivery,object,5,0,categorical
+Poor Hygiene,object,5,0,categorical
+Bad past experience,object,5,0,categorical
+Unavailability,object,5,0,categorical
+Unaffordable,object,5,0,categorical
+Long delivery time,object,5,0,categorical
+Delay of delivery person getting assigned,object,5,0,categorical
+Delay of delivery person picking up food,object,5,0,categorical
+Wrong order delivered,object,5,0,categorical
+Missing item,object,5,0,categorical
+Order placed by mistake,object,5,0,categorical
+Influence of time,object,3,0,categorical
+Order Time,object,3,0,categorical
+Maximum wait time,object,5,0,categorical
+Residence in busy location,object,5,0,categorical
+Google Maps Accuracy,object,5,0,categorical
+Good Road Condition,object,5,0,categorical
+Low quantity low time,object,5,0,categorical
+Delivery person ability,object,5,0,categorical
+Influence of rating,object,3,0,categorical
+Less Delivery time,object,5,0,categorical
+High Quality of package,object,5,0,categorical
+Number of calls,object,5,0,categorical
+Politeness,object,5,0,categorical
+Freshness,object,5,0,categorical
+Temperature,object,5,0,categorical
+Good Taste,object,5,0,categorical
+Good Quantity,object,5,0,categorical

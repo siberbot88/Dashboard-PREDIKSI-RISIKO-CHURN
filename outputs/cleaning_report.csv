@@ -1,0 +1,8 @@
+metric,value
+rows_before_cleaning,388
+columns_before_cleaning,55
+duplicates_before_cleaning,102
+rows_after_cleaning,286
+columns_after_cleaning,56
+duplicates_after_cleaning,0
+target_missing_after_mapping,0

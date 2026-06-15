@@ -1,0 +1,226 @@
+feature,importance,feature_clean
+cat__Time saving_Disagree,0.0658634185847614,Time saving_Disagree
+cat__Ease and convenient_Disagree,0.06584355067094132,Ease and convenient_Disagree
+cat__More restaurant choices_Disagree,0.05269147848691997,More restaurant choices_Disagree
+cat__Self Cooking_Agree,0.034734738177194704,Self Cooking_Agree
+cat__Easy Payment option_Disagree,0.031430043256549536,Easy Payment option_Disagree
+num__Age,0.031312414915833274,Age
+cat__Maximum wait time_15 minutes,0.027961189086470738,Maximum wait time_15 minutes
+cat__Ease and convenient_Agree,0.026906744736260244,Ease and convenient_Agree
+cat__More Offers and Discount_Disagree,0.026189909416588067,More Offers and Discount_Disagree
+num__latitude,0.01913330010009895,latitude
+num__longitude,0.018157389024455607,longitude
+cat__Time saving_Strongly agree,0.01742117633585886,Time saving_Strongly agree
+cat__More restaurant choices_Agree,0.015783353065015316,More restaurant choices_Agree
+cat__Time saving_Agree,0.015655619836389568,Time saving_Agree
+cat__Occupation_Student,0.013992947045941128,Occupation_Student
+cat__Late Delivery_Agree,0.013971120751099419,Late Delivery_Agree
+cat__More restaurant choices_Strongly agree,0.013514076149540541,More restaurant choices_Strongly agree
+cat__Unaffordable_Agree,0.013127833527362,Unaffordable_Agree
+cat__Monthly Income_No Income,0.011194077129210974,Monthly Income_No Income
+cat__More Offers and Discount_Agree,0.010628924633243745,More Offers and Discount_Agree
+cat__Ease and convenient_Strongly agree,0.01049243071492024,Ease and convenient_Strongly agree
+cat__Bad past experience_Agree,0.010380088160084228,Bad past experience_Agree
+num__Pin code,0.010036979195110698,Pin code
+cat__Health Concern_Agree,0.009707485268973639,Health Concern_Agree
+cat__Good Tracking system_Strongly agree,0.009232182359156738,Good Tracking system_Strongly agree
+cat__Delay of delivery person picking up food_Agree,0.008904831492900995,Delay of delivery person picking up food_Agree
+cat__Good Taste_Important,0.008799760772622314,Good Taste_Important
+cat__Good Tracking system_Disagree,0.008285105882787911,Good Tracking system_Disagree
+cat__Marital Status_Single,0.008123511002960075,Marital Status_Single
+cat__Easy Payment option_Strongly agree,0.00810797008782407,Easy Payment option_Strongly agree
+num__Family size,0.007793301089404906,Family size
+cat__Unaffordable_Neutral,0.007554422053482595,Unaffordable_Neutral
+cat__More Offers and Discount_Strongly agree,0.007479477212474739,More Offers and Discount_Strongly agree
+cat__Easy Payment option_Strongly disagree,0.007252802835607818,Easy Payment option_Strongly disagree
+cat__Poor Hygiene_Agree,0.0069931775554098186,Poor Hygiene_Agree
+cat__Number of calls_Very Important,0.006792105473693284,Number of calls_Very Important
+cat__Occupation_Employee,0.006470337525352908,Occupation_Employee
+cat__Politeness_Very Important,0.006449744888276052,Politeness_Very Important
+cat__Number of calls_Moderately Important,0.006445270112568324,Number of calls_Moderately Important
+cat__Good Tracking system_Strongly disagree,0.005792485036167525,Good Tracking system_Strongly disagree
+cat__Easy Payment option_Agree,0.005468840141311414,Easy Payment option_Agree
+cat__Self Cooking_Disagree,0.005115449549905302,Self Cooking_Disagree
+cat__Late Delivery_Neutral,0.0049894794104772405,Late Delivery_Neutral
+cat__Number of calls_Important,0.004965253372394383,Number of calls_Important
+cat__Long delivery time_Disagree,0.00489380865949177,Long delivery time_Disagree
+cat__Less Delivery time_Important,0.0046198553982994064,Less Delivery time_Important
+cat__Freshness_Important,0.004547535929842724,Freshness_Important
+cat__Unaffordable_Strongly disagree,0.004425996136323158,Unaffordable_Strongly disagree
+cat__Perference(P2)_Sweets,0.00437683921760486,Perference(P2)_Sweets
+cat__Good Food quality_Disagree,0.004335350891506228,Good Food quality_Disagree
+cat__Late Delivery_Disagree,0.004177145736738616,Late Delivery_Disagree
+cat__Good Food quality_Neutral,0.00412479551067688,Good Food quality_Neutral
+cat__Unavailability_Disagree,0.004088065491292437,Unavailability_Disagree
+cat__Meal(P1)_Lunch,0.004082648285921178,Meal(P1)_Lunch
+cat__Good Road Condition_Agree,0.004041099254192801,Good Road Condition_Agree
+cat__Influence of time_Yes,0.003923293473719876,Influence of time_Yes
+cat__Missing item_Disagree,0.0038909126108501125,Missing item_Disagree
+cat__Medium (P2)_Direct call,0.0038600520658850224,Medium (P2)_Direct call
+cat__Low quantity low time_Agree,0.0037791874328979664,Low quantity low time_Agree
+cat__Good Quantity_Important,0.003776811194953148,Good Quantity_Important
+cat__Wrong order delivered_Disagree,0.0037414683375517717,Wrong order delivered_Disagree
+cat__Politeness_Important,0.003657916503725313,Politeness_Important
+cat__More Offers and Discount_Strongly disagree,0.0036074985052806947,More Offers and Discount_Strongly disagree
+cat__Poor Hygiene_Disagree,0.003566728052997159,Poor Hygiene_Disagree
+cat__Order placed by mistake_Strongly disagree,0.0035582504308515695,Order placed by mistake_Strongly disagree
+cat__Gender_Female,0.0035525990992862394,Gender_Female
+cat__Order Time_Anytime (Mon-Sun),0.00353979919001732,Order Time_Anytime (Mon-Sun)
+cat__Unavailability_Strongly disagree,0.003453639838809506,Unavailability_Strongly disagree
+cat__Bad past experience_Neutral,0.003365820284661492,Bad past experience_Neutral
+cat__High Quality of package_Important,0.003365591342211574,High Quality of package_Important
+cat__Good Food quality_Agree,0.003363367650877161,Good Food quality_Agree
+cat__Gender_Male,0.0033547796320029044,Gender_Male
+cat__More Offers and Discount_Neutral,0.003353141678369635,More Offers and Discount_Neutral
+cat__Google Maps Accuracy_Agree,0.0033341055503717633,Google Maps Accuracy_Agree
+cat__Long delivery time_Agree,0.003317472282388014,Long delivery time_Agree
+cat__Maximum wait time_45 minutes,0.0031856144636405992,Maximum wait time_45 minutes
+cat__Missing item_Neutral,0.0031833217038060645,Missing item_Neutral
+cat__Delivery person ability_Agree,0.0029958809465491076,Delivery person ability_Agree
+cat__Delay of delivery person getting assigned_Neutral,0.002980091799372804,Delay of delivery person getting assigned_Neutral
+cat__Good Taste_Very Important,0.002962269150829595,Good Taste_Very Important
+cat__Order placed by mistake_Disagree,0.002962221669371992,Order placed by mistake_Disagree
+cat__Delay of delivery person picking up food_Disagree,0.002960326258996318,Delay of delivery person picking up food_Disagree
+cat__Delay of delivery person getting assigned_Strongly agree,0.0029568463324118684,Delay of delivery person getting assigned_Strongly agree
+cat__Influence of rating_Yes,0.002951986681070785,Influence of rating_Yes
+cat__Monthly Income_10001 to 25000,0.0027843569508940857,Monthly Income_10001 to 25000
+cat__Late Delivery_Strongly disagree,0.0026079741118882195,Late Delivery_Strongly disagree
+cat__Good Tracking system_Neutral,0.0025586950873809676,Good Tracking system_Neutral
+cat__Temperature_Important,0.002548781852345401,Temperature_Important
+cat__Educational Qualifications_Graduate,0.0025370237384318654,Educational Qualifications_Graduate
+cat__Meal(P1)_Snacks,0.002502096294079284,Meal(P1)_Snacks
+cat__Marital Status_Married,0.002481688836674829,Marital Status_Married
+cat__Unaffordable_Disagree,0.002481518436794936,Unaffordable_Disagree
+cat__Delay of delivery person picking up food_Strongly agree,0.0024274630467398376,Delay of delivery person picking up food_Strongly agree
+cat__Delay of delivery person getting assigned_Agree,0.0024079131097443714,Delay of delivery person getting assigned_Agree
+cat__Easy Payment option_Neutral,0.002407498202038985,Easy Payment option_Neutral
+cat__Residence in busy location_Agree,0.0023893041845342235,Residence in busy location_Agree
+cat__High Quality of package_Very Important,0.002389164098740595,High Quality of package_Very Important
+cat__Good Food quality_Strongly disagree,0.0023138546886973823,Good Food quality_Strongly disagree
+cat__Health Concern_Disagree,0.002292903222568931,Health Concern_Disagree
+cat__Bad past experience_Disagree,0.0022869617166234356,Bad past experience_Disagree
+cat__Unavailability_Agree,0.0022312416499039116,Unavailability_Agree
+cat__Health Concern_Neutral,0.002226303893980085,Health Concern_Neutral
+cat__Less Delivery time_Very Important,0.0021697497037159075,Less Delivery time_Very Important
+cat__Politeness_Moderately Important,0.0021619738598267187,Politeness_Moderately Important
+cat__Unaffordable_Strongly agree,0.0021576742830543426,Unaffordable_Strongly agree
+cat__Self Cooking_Neutral,0.002148326358091847,Self Cooking_Neutral
+cat__Influence of rating_Maybe,0.002125015137047685,Influence of rating_Maybe
+cat__Number of calls_Slightly Important,0.0020896479204972553,Number of calls_Slightly Important
+cat__More restaurant choices_Strongly disagree,0.0020872806727004973,More restaurant choices_Strongly disagree
+cat__Perference(P2)_Veg foods (Breakfast / Lunch / Dinner),0.002070520804112585,Perference(P2)_Veg foods (Breakfast / Lunch / Dinner)
+cat__Good Tracking system_Agree,0.0020684980845115043,Good Tracking system_Agree
+cat__Good Road Condition_Strongly Agree,0.0020577961504700064,Good Road Condition_Strongly Agree
+cat__Monthly Income_More than 50000,0.0020176577180368556,Monthly Income_More than 50000
+cat__Freshness_Very Important,0.001971581544426678,Freshness_Very Important
+cat__Educational Qualifications_Post Graduate,0.0019100448652500112,Educational Qualifications_Post Graduate
+cat__Wrong order delivered_Agree,0.0018825442734008992,Wrong order delivered_Agree
+cat__Maximum wait time_30 minutes,0.0018723661389372067,Maximum wait time_30 minutes
+cat__Politeness_Slightly Important,0.0018520481962505486,Politeness_Slightly Important
+cat__Good Road Condition_Disagree,0.0018401811722599287,Good Road Condition_Disagree
+cat__Good Quantity_Very Important,0.0017959903376131155,Good Quantity_Very Important
+cat__Low quantity low time_Disagree,0.0017865358416565954,Low quantity low time_Disagree
+cat__Wrong order delivered_Neutral,0.00176744661974104,Wrong order delivered_Neutral
+cat__Delay of delivery person picking up food_Neutral,0.0016972990733475895,Delay of delivery person picking up food_Neutral
+cat__Delay of delivery person getting assigned_Disagree,0.0016472820145238853,Delay of delivery person getting assigned_Disagree
+cat__Medium (P2)_Web browser,0.0016402169351079812,Medium (P2)_Web browser
+cat__Wrong order delivered_Strongly disagree,0.0016327441937986865,Wrong order delivered_Strongly disagree
+cat__Missing item_Agree,0.0016017449507223912,Missing item_Agree
+cat__More restaurant choices_Neutral,0.001600026082022736,More restaurant choices_Neutral
+cat__Google Maps Accuracy_Strongly Agree,0.0015801699715302497,Google Maps Accuracy_Strongly Agree
+cat__Low quantity low time_Strongly disagree,0.001577382011512195,Low quantity low time_Strongly disagree
+cat__Monthly Income_25001 to 50000,0.001558304114481526,Monthly Income_25001 to 50000
+cat__Order Time_Weekend (Sat & Sun),0.001486918967512777,Order Time_Weekend (Sat & Sun)
+cat__Delivery person ability_Disagree,0.0014615658194307045,Delivery person ability_Disagree
+cat__Medium (P1)_Walk-in,0.0014502223395995925,Medium (P1)_Walk-in
+cat__Google Maps Accuracy_Disagree,0.0014133781336099804,Google Maps Accuracy_Disagree
+cat__Good Road Condition_Neutral,0.0014064324149207189,Good Road Condition_Neutral
+cat__Poor Hygiene_Neutral,0.0013960060480462733,Poor Hygiene_Neutral
+cat__Perference(P1)_Veg foods (Breakfast / Lunch / Dinner),0.0013261953019746426,Perference(P1)_Veg foods (Breakfast / Lunch / Dinner)
+cat__Freshness_Slightly Important,0.0012972914836112603,Freshness_Slightly Important
+cat__Meal(P1)_Dinner,0.0012579849059439912,Meal(P1)_Dinner
+cat__Temperature_Very Important,0.0012373341640209757,Temperature_Very Important
+cat__Meal(P2)_Snacks,0.0012010985224875997,Meal(P2)_Snacks
+cat__Delivery person ability_Strongly Agree,0.0011833274597623056,Delivery person ability_Strongly Agree
+cat__Temperature_Moderately Important,0.001144996308768645,Temperature_Moderately Important
+cat__Bad past experience_Strongly disagree,0.001144917327050621,Bad past experience_Strongly disagree
+cat__Meal(P1)_Breakfast,0.0011447305056892468,Meal(P1)_Breakfast
+cat__Meal(P2)_Dinner,0.0011187945739565698,Meal(P2)_Dinner
+cat__Perference(P1)_Non Veg foods (Lunch / Dinner),0.0011076861490104,Perference(P1)_Non Veg foods (Lunch / Dinner)
+cat__Unavailability_Strongly agree,0.0010873545445028807,Unavailability_Strongly agree
+cat__Meal(P2)_Lunch,0.0010518633566047376,Meal(P2)_Lunch
+cat__Low quantity low time_Neutral,0.001038942890438049,Low quantity low time_Neutral
+cat__Unavailability_Neutral,0.001005498387886573,Unavailability_Neutral
+cat__Good Quantity_Moderately Important,0.0009882675372865225,Good Quantity_Moderately Important
+cat__Medium (P2)_Walk-in,0.0009868019658854626,Medium (P2)_Walk-in
+cat__Order placed by mistake_Neutral,0.0009698966696209294,Order placed by mistake_Neutral
+cat__Good Quantity_Slightly Important,0.0009612472016454824,Good Quantity_Slightly Important
+cat__Poor Hygiene_Strongly agree,0.0009435135649889107,Poor Hygiene_Strongly agree
+cat__Health Concern_Strongly agree,0.0009102891608070162,Health Concern_Strongly agree
+cat__Maximum wait time_60 minutes,0.0009057198050336103,Maximum wait time_60 minutes
+cat__Medium (P1)_Food delivery apps,0.0008959786762370589,Medium (P1)_Food delivery apps
+cat__Residence in busy location_Neutral,0.0008592777580390888,Residence in busy location_Neutral
+cat__Good Food quality_Strongly agree,0.0008518641231152807,Good Food quality_Strongly agree
+cat__Missing item_Strongly disagree,0.0008449963187679713,Missing item_Strongly disagree
+cat__Long delivery time_Strongly agree,0.0008206109386651359,Long delivery time_Strongly agree
+cat__Influence of rating_No,0.0008059525135019275,Influence of rating_No
+cat__Wrong order delivered_Strongly agree,0.0007189491202759128,Wrong order delivered_Strongly agree
+cat__Residence in busy location_Disagree,0.0007183329967108048,Residence in busy location_Disagree
+cat__Time saving_Neutral,0.0007064806521897718,Time saving_Neutral
+cat__Educational Qualifications_Ph.D,0.0006989328962308341,Educational Qualifications_Ph.D
+cat__Google Maps Accuracy_Neutral,0.0006788813917625919,Google Maps Accuracy_Neutral
+cat__Order placed by mistake_Agree,0.0006768762963278087,Order placed by mistake_Agree
+cat__Bad past experience_Strongly agree,0.0006707824097120545,Bad past experience_Strongly agree
+cat__Perference(P2)_Ice cream / Cool drinks,0.0006703812755806384,Perference(P2)_Ice cream / Cool drinks
+cat__Occupation_Self Employeed,0.0005613879441910334,Occupation_Self Employeed
+cat__High Quality of package_Moderately Important,0.0005461183964599823,High Quality of package_Moderately Important
+cat__Educational Qualifications_School,0.0005316041616396561,Educational Qualifications_School
+cat__High Quality of package_Slightly Important,0.000500607800157199,High Quality of package_Slightly Important
+cat__Less Delivery time_Slightly Important,0.00045983285385913257,Less Delivery time_Slightly Important
+cat__Order placed by mistake_Strongly agree,0.0004227444088624768,Order placed by mistake_Strongly agree
+cat__Influence of time_No,0.00031578076248109594,Influence of time_No
+cat__Less Delivery time_Moderately Important,0.0002822463125478584,Less Delivery time_Moderately Important
+cat__Ease and convenient_Neutral,0.0002627699474706491,Ease and convenient_Neutral
+cat__Long delivery time_Neutral,0.00025347763152499874,Long delivery time_Neutral
+cat__Order Time_Weekdays (Mon-Fri),0.00024644794225313815,Order Time_Weekdays (Mon-Fri)
+cat__Self Cooking_Strongly agree,0.0001864012515044129,Self Cooking_Strongly agree
+cat__Freshness_Moderately Important,0.0001743362229367906,Freshness_Moderately Important
+cat__Delivery person ability_Neutral,0.00016616294328939774,Delivery person ability_Neutral
+cat__Missing item_Strongly agree,0.00014359693122581094,Missing item_Strongly agree
+cat__Good Taste_Moderately Important,5.2609386364579514e-05,Good Taste_Moderately Important
+cat__Residence in busy location_Strongly Agree,4.457927605854833e-05,Residence in busy location_Strongly Agree
+cat__Influence of time_Maybe,6.553831761263123e-19,Influence of time_Maybe
+cat__Medium (P1)_Direct call,0.0,Medium (P1)_Direct call
+cat__Medium (P1)_Web browser,0.0,Medium (P1)_Web browser
+cat__Late Delivery_Strongly agree,0.0,Late Delivery_Strongly agree
+cat__Health Concern_Strongly disagree,0.0,Health Concern_Strongly disagree
+cat__Self Cooking_Strongly disagree,0.0,Self Cooking_Strongly disagree
+cat__Perference(P1)_Bakery items (snacks),0.0,Perference(P1)_Bakery items (snacks)
+cat__Perference(P2)_Bakery items (snacks),0.0,Perference(P2)_Bakery items (snacks)
+cat__Perference(P1)_Sweets,0.0,Perference(P1)_Sweets
+cat__Time saving_Strongly disagree,0.0,Time saving_Strongly disagree
+cat__Ease and convenient_Strongly disagree,0.0,Ease and convenient_Strongly disagree
+cat__Monthly Income_Below Rs.10000,0.0,Monthly Income_Below Rs.10000
+cat__Educational Qualifications_Uneducated,0.0,Educational Qualifications_Uneducated
+cat__Marital Status_Prefer not to say,0.0,Marital Status_Prefer not to say
+cat__Occupation_House wife,0.0,Occupation_House wife
+cat__Poor Hygiene_Strongly disagree,0.0,Poor Hygiene_Strongly disagree
+cat__Delay of delivery person picking up food_Strongly disagree,0.0,Delay of delivery person picking up food_Strongly disagree
+cat__Long delivery time_Strongly disagree,0.0,Long delivery time_Strongly disagree
+cat__Delay of delivery person getting assigned_Strongly disagree,0.0,Delay of delivery person getting assigned_Strongly disagree
+cat__Maximum wait time_More than 60 minutes,0.0,Maximum wait time_More than 60 minutes
+cat__Delivery person ability_Strongly disagree,0.0,Delivery person ability_Strongly disagree
+cat__Less Delivery time_Unimportant,0.0,Less Delivery time_Unimportant
+cat__Low quantity low time_Strongly Agree,0.0,Low quantity low time_Strongly Agree
+cat__Google Maps Accuracy_Strongly disagree,0.0,Google Maps Accuracy_Strongly disagree
+cat__Residence in busy location_Strongly disagree,0.0,Residence in busy location_Strongly disagree
+cat__Good Road Condition_Strongly disagree,0.0,Good Road Condition_Strongly disagree
+cat__Number of calls_Unimportant,0.0,Number of calls_Unimportant
+cat__Freshness_Unimportant,0.0,Freshness_Unimportant
+cat__Politeness_Unimportant,0.0,Politeness_Unimportant
+cat__High Quality of package_Unimportant,0.0,High Quality of package_Unimportant
+cat__Temperature_Slightly Important,0.0,Temperature_Slightly Important
+cat__Temperature_Unimportant,0.0,Temperature_Unimportant
+cat__Good Taste_Unimportant,0.0,Good Taste_Unimportant
+cat__Good Taste_Slightly Important,0.0,Good Taste_Slightly Important
+cat__Good Quantity_Unimportant,0.0,Good Quantity_Unimportant

@@ -1,0 +1,24 @@
+
+Dashboard Streamlit berhasil dibuat.
+
+File app:
+/content/drive/MyDrive/Proyek_CRM_KELOMPOK/app.py
+
+Cara menjalankan ulang:
+1. Buka notebook 08_dashboard_streamlit.ipynb
+2. Jalankan cell install Streamlit
+3. Jalankan cell streamlit run
+4. Jalankan cell ngrok
+5. Buka link dashboard
+
+Isi dashboard:
+1. KPI total customer
+2. Actual risk rate
+3. High Risk, Medium Risk, Low Risk
+4. Distribusi Output
+5. Distribusi Risk Segment
+6. Model comparison
+7. Feature importance
+8. Customer priority table
+9. Map pelanggan
+10. CRM strategy matrix

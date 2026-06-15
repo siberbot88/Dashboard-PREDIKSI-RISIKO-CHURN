@@ -1,0 +1,56 @@
+column_name,data_type,missing_count,unique_count
+Age,int64,0,16
+Gender,object,0,2
+Marital Status,object,0,3
+Occupation,object,0,4
+Monthly Income,object,0,5
+Educational Qualifications,object,0,5
+Family size,int64,0,6
+latitude,float64,0,77
+longitude,float64,0,76
+Pin code,int64,0,77
+Medium (P1),object,0,4
+Medium (P2),object,0,3
+Meal(P1),object,0,4
+Meal(P2),object,0,3
+Perference(P1),object,0,4
+Perference(P2),object,0,4
+Ease and convenient,object,0,5
+Time saving,object,0,5
+More restaurant choices,object,0,5
+Easy Payment option,object,0,5
+More Offers and Discount,object,0,5
+Good Food quality,object,0,5
+Good Tracking system,object,0,5
+Self Cooking,object,0,5
+Health Concern,object,0,5
+Late Delivery,object,0,5
+Poor Hygiene,object,0,5
+Bad past experience,object,0,5
+Unavailability,object,0,5
+Unaffordable,object,0,5
+Long delivery time,object,0,5
+Delay of delivery person getting assigned,object,0,5
+Delay of delivery person picking up food,object,0,5
+Wrong order delivered,object,0,5
+Missing item,object,0,5
+Order placed by mistake,object,0,5
+Influence of time,object,0,3
+Order Time,object,0,3
+Maximum wait time,object,0,5
+Residence in busy location,object,0,5
+Google Maps Accuracy,object,0,5
+Good Road Condition,object,0,5
+Low quantity low time,object,0,5
+Delivery person ability,object,0,5
+Influence of rating,object,0,3
+Less Delivery time,object,0,5
+High Quality of package,object,0,5
+Number of calls,object,0,5
+Politeness,object,0,5
+Freshness ,object,0,5
+Temperature,object,0,5
+Good Taste ,object,0,5
+Good Quantity,object,0,5
+Output,object,0,2
+Reviews,object,1,180

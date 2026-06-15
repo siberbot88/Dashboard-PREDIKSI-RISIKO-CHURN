@@ -1,0 +1,10 @@
+
+Insight EDA Awal
+
+1. Total pelanggan: 286
+2. Churn risk rate aktual: 22.73%
+3. Kelompok usia dengan risiko tertinggi: 27+ dengan churn rate 40.98%
+4. Pekerjaan dengan risiko tertinggi: Employee dengan churn rate 35.48%
+
+Interpretasi CRM:
+Pelanggan berisiko perlu dianalisis berdasarkan profil demografi dan faktor layanan. Strategi CRM sebaiknya diarahkan ke segmen dengan risiko tinggi, bukan dibagikan sama rata ke semua pelanggan.

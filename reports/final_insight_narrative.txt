@@ -1,0 +1,18 @@
+
+Narasi Insight Final
+
+Dataset berisi 286 pelanggan food delivery. Target analisis adalah churn risk, yaitu risiko pelanggan tidak melakukan pembelian ulang. Actual churn risk rate pada dataset adalah 22.73%.
+
+Model utama yang dipakai adalah Random Forest karena cocok untuk data tabular, fitur kategorikal, dan kebutuhan feature importance. Model terbaik berdasarkan tabel evaluasi adalah Random Forest dengan F1-score 0.818 dan ROC AUC 0.956.
+
+Hasil segmentasi membagi pelanggan menjadi:
+1. High Risk: 40 pelanggan
+2. Medium Risk: 33 pelanggan
+3. Low Risk: 213 pelanggan
+
+Strategi CRM dibuat dengan CRAM, yaitu Customer Retention Action Matrix. CRAM menghubungkan risk score, risk segment, reason code, CRM action, channel, dan KPI.
+
+Rekomendasi utama:
+1. High Risk diarahkan ke fast delivery voucher, We Miss You campaign, dan kompensasi delay.
+2. Medium Risk diarahkan ke loyalty point, bundle promo, dan rekomendasi restoran.
+3. Low Risk diarahkan ke referral reward, membership tier, dan reward review positif.

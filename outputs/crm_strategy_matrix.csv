@@ -1,0 +1,4 @@
+segment,karakteristik,strategi_utama,channel,kpi
+High Risk,"Skor risiko tinggi, sensitif pada waktu, kemudahan, atau value layanan","Fast delivery voucher, We Miss You campaign, kompensasi delay, rekomendasi restoran terdekat","Push notification, WhatsApp, in-app","Reorder rate, voucher redemption, penurunan churn risk"
+Medium Risk,"Risiko sedang, masih bisa didorong dengan promo dan pengalaman konsisten","Loyalty point, bundle makan siang, rekomendasi restoran sesuai preferensi, promo personal","Email, in-app, push notification","Repeat order, frequency, campaign conversion"
+Low Risk,"Risiko rendah, pelanggan potensial untuk loyalitas dan referral","Referral reward, membership tier, early access promo, reward review positif","In-app, email, referral link","Referral rate, retention rate, review rate"

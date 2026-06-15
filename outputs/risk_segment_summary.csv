@@ -1,0 +1,4 @@
+risk_segment,total_customer,avg_risk_score,actual_churn_risk
+High Risk,40,0.8073689563635715,95.0
+Low Risk,213,0.203293836002599,1.8779342723004695
+Medium Risk,33,0.5421007904468199,69.6969696969697
