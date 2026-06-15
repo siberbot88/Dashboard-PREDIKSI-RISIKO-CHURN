@@ -17,6 +17,24 @@ Proyek ini dikembangkan untuk memprediksi probabilitas berhenti berlangganan (ch
 3. **Daftar Prioritas Pelanggan (Customer Priority Table)** : Mengurutkan pelanggan berdasarkan skor risiko beserta alasan spesifik (Reason Code) untuk setiap individu.
 4. **Strategi CRM (CRM Strategy Matrix)** : Rekomendasi aksi retensi pelanggan beserta kanal komunikasi yang dianjurkan sesuai dengan profil risiko pelanggan.
 
+## Metodologi dan Hasil Analisis
+### Teknologi dan Algoritma
+- **Bahasa dan Pustaka** : Python, Pandas, Scikit-Learn, Matplotlib.
+- **Algoritma Model** : Random Forest Classifier.
+- **Platform Antarmuka** : Streamlit.
+
+### Tahapan Proses (Pipeline)
+1. **Pembersihan Data (Data Cleaning)** : Penanganan nilai kosong dan standardisasi format data.
+2. **Exploratory Data Analysis (EDA)** : Pencarian pola dan korelasi antara variabel demografis dan persepsi layanan terhadap status *churn*.
+3. **Pemodelan Machine Learning** : Pengujian dan komparasi berbagai algoritma (Decision Tree, KNN, Logistic Regression, Random Forest).
+4. **Penilaian Risiko (Risk Scoring & Segmentation)** : Perhitungan probabilitas churn dan pengelompokan pelanggan (High, Medium, Low Risk) berdasarkan batas persentil statistik.
+5. **Penentuan Reason Code** : Ekstraksi variabel paling bermasalah pada masing-masing pelanggan (contoh: *Time Risk*, *Promo Risk*).
+6. **Perumusan Strategi (CRAM)** : Pemetaan pelanggan ke tindakan nyata berbasis profil risiko.
+
+### Ringkasan Temuan
+Model Random Forest terbukti memberikan metrik evaluasi terbaik (F1-Score: 0.818). Hasil prediksi menunjukkan bahwa sekitar 14% dari pelanggan masuk ke dalam kategori **High Risk** (risiko tinggi untuk churn). Mayoritas pelanggan berisiko tinggi tersebut masuk ke dalam segmen **Time Risk**, yang mengindikasikan bahwa keterlambatan pengiriman dan hilangnya penghematan waktu adalah alasan utama ketidakpuasan. Strategi retensi difokuskan pada perbaikan SLA waktu pengantaran, kompensasi keterlambatan, serta peningkatan efisiensi layanan secara keseluruhan.
+
+
 ## Panduan Instalasi dan Penggunaan Lokal
 1. Pastikan lingkungan Python telah terpasang.
 2. Instal seluruh dependensi yang diperlukan dengan menjalankan perintah:
