@@ -1,7 +1,8 @@
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.express as px
+import os
 
 st.set_page_config(
     page_title='CRM Food Delivery Dashboard',
@@ -232,27 +233,23 @@ left, right = st.columns(2)
 
 with left:
     st.subheader('Distribusi Output')
-    output_count = filtered_df['Output'].value_counts()
-
-    fig, ax = plt.subplots(figsize=(6, 4))
-    output_count.plot(kind='bar', ax=ax)
-    ax.set_xlabel('Output')
-    ax.set_ylabel('Jumlah pelanggan')
-    ax.set_title('Distribusi Output')
-    st.pyplot(fig)
+    output_count = filtered_df['Output'].value_counts().reset_index()
+    output_count.columns = ['Output', 'Jumlah']
+    fig_output = px.bar(output_count, x='Output', y='Jumlah', color='Output', text='Jumlah')
+    fig_output.update_traces(textposition='outside')
+    fig_output.update_layout(xaxis_title='Output', yaxis_title='Jumlah Pelanggan', showlegend=False)
+    st.plotly_chart(fig_output, use_container_width=True)
 
     st.info(make_output_insight(filtered_df))
 
 with right:
     st.subheader('Distribusi Risk Segment')
-    segment_count = filtered_df['risk_segment'].value_counts()
-
-    fig, ax = plt.subplots(figsize=(6, 4))
-    segment_count.plot(kind='bar', ax=ax)
-    ax.set_xlabel('Risk segment')
-    ax.set_ylabel('Jumlah pelanggan')
-    ax.set_title('Distribusi Risk Segment')
-    st.pyplot(fig)
+    segment_count = filtered_df['risk_segment'].value_counts().reset_index()
+    segment_count.columns = ['Risk Segment', 'Jumlah']
+    fig_segment = px.bar(segment_count, x='Risk Segment', y='Jumlah', color='Risk Segment', text='Jumlah')
+    fig_segment.update_traces(textposition='outside')
+    fig_segment.update_layout(xaxis_title='Risk Segment', yaxis_title='Jumlah Pelanggan', showlegend=False)
+    st.plotly_chart(fig_segment, use_container_width=True)
 
     st.info(make_segment_insight(filtered_df))
 
@@ -261,14 +258,12 @@ st.dataframe(model_result, use_container_width=True, hide_index=True)
 st.info(make_model_insight(model_result))
 
 st.subheader('Top Feature Importance')
-top_features = feature_importance.head(15)
-
-fig, ax = plt.subplots(figsize=(8, 6))
-ax.barh(top_features['feature_clean'], top_features['importance'])
-ax.invert_yaxis()
-ax.set_xlabel('Importance')
-ax.set_title('Top Feature Importance')
-st.pyplot(fig)
+if len(feature_importance) > 0:
+    top_features = feature_importance.head(15).sort_values('importance', ascending=True)
+    fig_feat = px.bar(top_features, x='importance', y='feature_clean', orientation='h', text='importance')
+    fig_feat.update_traces(texttemplate='%{text:.3f}', textposition='outside')
+    fig_feat.update_layout(xaxis_title='Importance', yaxis_title='Feature')
+    st.plotly_chart(fig_feat, use_container_width=True)
 
 st.info(make_feature_insight(feature_importance))
 
