@@ -206,26 +206,20 @@ if occupation_filter != 'All':
 
 filtered_df = filtered_df[filtered_df['risk_score'] >= min_score]
 
-st.subheader('Ringkasan Data Terfilter')
-
-fcol1, fcol2, fcol3 = st.columns(3)
-fcol1.metric('Jumlah Customer Terfilter', len(filtered_df))
-
+st.subheader('Analisis Data Terfilter')
 if len(filtered_df) > 0:
-    fcol2.metric('Rata-rata Risk Score', f'{filtered_df["risk_score"].mean():.3f}')
-    fcol3.metric('Risk Score Tertinggi', f'{filtered_df["risk_score"].max():.3f}')
-else:
-    fcol2.metric('Rata-rata Risk Score', '0')
-    fcol3.metric('Risk Score Tertinggi', '0')
-
-if len(filtered_df) > 0:
-    top_reason = get_top_value(filtered_df, 'reason_code')
-    top_reason_count = get_top_count(filtered_df, 'reason_code')
-    st.info(
-        f'Filter saat ini menghasilkan {len(filtered_df)} pelanggan. '
-        f'Reason code paling dominan adalah {top_reason} dengan {top_reason_count} pelanggan. '
-        f'So what: campaign CRM sebaiknya mengikuti alasan risiko paling dominan pada data terfilter.'
-    )
+    col_a, col_b = st.columns(2)
+    with col_a:
+        reason_count = filtered_df['reason_code'].value_counts().reset_index()
+        reason_count.columns = ['Reason Code', 'Jumlah']
+        fig_reason = px.bar(reason_count, x='Reason Code', y='Jumlah', color='Reason Code', text='Jumlah', title='Distribusi Alasan Risiko')
+        fig_reason.update_traces(textposition='outside')
+        fig_reason.update_layout(xaxis_title='Reason Code', yaxis_title='Jumlah Pelanggan', showlegend=False)
+        st.plotly_chart(fig_reason, use_container_width=True)
+    with col_b:
+        fig_score = px.histogram(filtered_df, x='risk_score', nbins=10, title='Distribusi Risk Score')
+        fig_score.update_layout(xaxis_title='Risk Score', yaxis_title='Frekuensi')
+        st.plotly_chart(fig_score, use_container_width=True)
 else:
     st.warning('Tidak ada pelanggan pada kombinasi filter ini.')
 
